@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>DT编辑器</title>
+    <style>* {
+      margin: 0;
+      padding: 0;
+    }
+    .pre_load {
+      position: absolute;
+      width:100%;
+      height: 100%;
+      overflow: hidden;
+      background: rgba(1,1,1,1);
+    }
+    .pre_text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      font-size: 10vw;
+      font-weight: 900;
+      color: transparent;
+      -webkit-text-fill-color: #e7e7e3;/*文字的填充色*/
+      -webkit-text-stroke: .8px #1c2030;
+    }
+    .pre_text2 {
+      width:100%;
+      text-align: center;
+      top: 90%;
+      font-size: 5vw;
+    }
+    .pre_text2 .animate_text {
+      opacity: 0;
+      animation: showtext 3s linear infinite;
+    }
+    .pre_text2 .animate_text1 {
+      animation-delay: .2s
+    }
+    .pre_text2 .animate_text2 {
+      animation-delay: .4s
+    }
+    .pre_text2 .animate_text3 {
+      animation-delay: .6s
+    }
+    .pre_text2 .animate_text4 {
+      animation-delay: .8s
+    }
+    .pre_text2 .animate_text5 {
+      animation-delay: 1s
+    }
+    .pre_text2 .animate_text6 {
+      animation-delay: 1.2s
+    }
+    .pre_text2 .animate_text7 {
+      animation-delay: 1.4s
+    }
+    .pre_text2 .animate_text8 {
+      animation-delay: 1.6s
+    }
+    .pre_text2 .animate_text9 {
+      animation-delay: 1.8s
+    }
+    .pre_text2 .animate_text10 {
+      animation-delay: 2s
+    }
+    .pre_text2 .animate_text11 {
+      animation-delay: 2.2s
+    }
+    .pre_text2 .animate_text12 {
+      animation-delay: 2.4s
+    }
+    .pre_text2 .animate_text13 {
+      animation-delay: 2.6s
+    }
+    @keyframes animate {
+      to {
+        transform: rotate(1turn);
+      }
+    }
+    @keyframes showtext {
+      0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 0;
+      }
+    }</style>
+  </head>
+  <body>
+    <div id="app">
+      <div id=app><div class=pre_load></div>
+      <span class=pre_text>双 花</span><p class="pre_text pre_text2">
+          <span class="animate_text animate_text3">寒</span> 
+          <span class="animate_text animate_text4">梅</span> 
+          <span class="animate_text animate_text5">最</span> 
+          <span class="animate_text animate_text6">堪</span> 
+          <span class="animate_text animate_text7">恨</span> 
+          <span class="animate_text animate_text8">_</span> 
+          <span class="animate_text animate_text9">长</span> 
+          <span class="animate_text animate_text10">作</span> 
+          <span class="animate_text animate_text11">去</span> 
+          <span class="animate_text animate_text12">年</span> 
+          <span class="animate_text animate_text13">花</span></p></div>
+    </div>
+  </body>
+</html>
